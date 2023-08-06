@@ -17,7 +17,7 @@ h1 {
   line-height: 1.1;
   font-size: 6rem;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 h2 {
@@ -26,8 +26,8 @@ h2 {
   text-transform: capitalize;
   line-height: 1.2;
   font-size: 2.25rem;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
 }
 .span1 {
   color: #000;
@@ -48,12 +48,12 @@ h2 {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 71.25rem;
   margin: auto;
 }
 .bar {
-  width: 168px;
-  height: 22px;
+  width: 10.5rem;
+  height: 1.375rem;
   background-color: #006341;
 }
 .header_line {
@@ -68,8 +68,8 @@ h2 {
   height: 100px;
 }
 .header_left img {
-  width: 64px;
-  height: 64px;
+  width: 4rem;
+  height: 4rem;
 }
 .header-rigth {
   display: flex;
@@ -83,7 +83,7 @@ h2 {
   padding: 10px 11.2px;
   border: 1px solid #999;
   outline: 0;
-  width: 260px;
+  width: 16.25rem;
 }
 
 .header_search button {
@@ -117,8 +117,8 @@ h2 {
 }
 
 .banner_images img {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
   border: 6px solid #117050;
   border-radius: 50%;
   margin-top: 60px;
@@ -130,9 +130,8 @@ h2 {
 }
 
 .area1_content {
-  padding: 60px 0px 59px 250px;
-  padding-left: 60px;
-  padding-left: 250px;
+  padding: 60px 0px 59px 15.625rem;
+  padding-left: 15.625rem;
   padding-bottom: 30px;
   
 }
@@ -166,7 +165,7 @@ h2 {
 
 .area2_content {
   padding-top: 89px;
-  padding-left: 250px;
+  padding-left: 15.625rem;
   padding-bottom: 30px;
   
 }
@@ -196,9 +195,9 @@ h2 {
 }
 
 .area3_content {
-  padding: 168px 0px 0px 390px; 
+  padding: 168px 0px 0px 24.375rem; 
   padding-top: 168px;
-  padding-left: 390px; 
+  padding-left: 24.375rem; 
 
   background-image: url(../IMG/bg2.jpg);
   background-size: cover;
@@ -218,7 +217,7 @@ h2 {
 
 .area4 {
   display: grid;
-  grid-template-columns: 600px 1fr;
+  grid-template-columns: 37.5rem 1fr;
 }
 .area4_text {
   margin-bottom: 55px;
@@ -226,7 +225,7 @@ h2 {
   
 }
 .area4_content {
-  padding: 168px 0px 270px 303px; 
+  padding: 168px 0px 270px 18.9375rem; 
   background-color: #e8e9ee;
  }
  
@@ -265,9 +264,17 @@ span {
     padding-right: 20px;
   }
 
-  .area4_content {
+  /* .area4_content {
     padding: 80px 50px;
     
   }
- 
+  */
+  .area5 {
+    width: 100%;
+  height: 82vh;
+  background-image: url(../IMG/bg4.jpg);
+  background-size: cover;
+  background-position: rigth;
+  background-color: #e8e9ee;
+  }
 }
